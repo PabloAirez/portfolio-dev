@@ -1,7 +1,10 @@
 
-const Header = () => {
+import Nav from './Nav';
+
+const Header: React.FC = () => {
     return (
         <header className='w-full h-96 bg-center bg-cover bg-black/60'>  
+            <Nav/> 
             <div className='flex flex-col items-center gap-6 justify-center h-full'>
                 <h1 className='text-5xl font-bold text-center text-white hover:text-purple-500 duration-300 animate-fade-in'>Pablo Santos</h1>  
                 <h2 className='text-2xl font-bold text-center text-white hover:text-purple-500 duration-300 animate-fade-in'>Desenvolvedor Fullstack</h2>
