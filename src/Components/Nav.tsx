@@ -2,7 +2,7 @@ import React from 'react';
 
 const Nav: React.FC = () => {
   return (
-    <nav className="w-full bg-black/60 text-white p-4">
+    <nav className="w-full bg-black/60 text-white p-4 fixed">
       <div className="container mx-auto">
         <ul className="flex justify-end items-center space-x-6">
           <li>
