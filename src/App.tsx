@@ -3,6 +3,7 @@ import Header from './Components/Header'
 import AboutMe from './Components/AboutMe'
 import Projects from './Components/Projects'
 import Experiences from './Components/Experiences'
+import Contacts from './Components/Contacts'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <AboutMe/> 
         <Projects />
         <Experiences />
+        <Contacts />
       </div>
     </>
   )
