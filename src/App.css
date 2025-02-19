@@ -36,3 +36,13 @@ html {
   display: flex;
   flex-direction: column;
 }
+
+/* Customização das setas do Swiper */
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgb(168 85 247) !important; /* Cor purple-500 */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: rgb(168 85 247) !important; /* Cor purple-500 */
+}
